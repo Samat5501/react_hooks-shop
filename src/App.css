@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  background-color: #e7f6ff;
+}
+
+.wrapper{
+  background: #ffffff;
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #060473;
+  padding: 20px 0;
+}
+.headerLeft{
+  display: flex;
+  align-items: center;
+}
+img{
+  margin-right: 15px;
+}
+
+.headerRight{
+  display: flex;
+  flex-direction: row;
+}
+
+li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  align-items: center;
+  margin-right: 20px;
+}
+h3,
+p{
+  margin: 0;
+}
+
+.clothes{
+  padding: 0 5%;
+}
+.card__item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.card{
+  border: 1px solid #f3f3f3;
+  padding: 38px;
+  width: 120px;
+  border-radius: 40px;
+  box-shadow: rgb(146, 145, 142) 0px 0px 10px 4px;
+  margin-top: 20px;
+}
